@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment files
+.env
+
+# Django
+*.log
+db.sqlite3
+staticfiles/
+media/
+
+# Local test scripts
+api_smoke_test.py
+
+# IDE
+.vscode/
+.idea/
