@@ -185,11 +185,6 @@ ALLOWED_HOSTS=127.0.0.1,localhost
 CSRF_TRUSTED_ORIGINS=https://your-app.onrender.com
 ```
 
-## Deployment (Render)
-
-- Build Command: `bash build.sh`
-- Start Command: `gunicorn config.wsgi:application`
-
 Required environment variables on Render:
 
 - `DATABASE_URL`
@@ -221,7 +216,3 @@ Live deployment was validated with automated endpoint checks for:
 - Ownership enforcement for patient and mapping resources
 - CRUD happy paths and duplicate validation
 
-## Notes
-
-- Keep `.env` private and never commit secrets.
-- Rotate database credentials and secret keys if exposed.
